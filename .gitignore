@@ -1,45 +1,51 @@
 ```
-# Jupyter Notebook checkpoints
-.ipynb_checkpoints/
+# Compressed files
+*.zip
 
-# Python cache
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-
-# Environment variables
+# Environment files
 .env
 .env.local
 *.env.*
 
-# IDE specific
+# Logs and temporary files
+*.log
+*.tmp
+
+# Editor/IDE files
 .vscode/
 .idea/
 *.swp
 *.swo
 
-# Logs
-*.log
-
-# Coverage reports
-.coverage
-coverage/
-htmlcov/
-
-# Temporary files
-*.tmp
-*.temp
-
-# Build artifacts
-dist/
-build/
-*.egg-info/
-
-# Dependencies
+# Dependency directories
 node_modules/
-.venv/
 venv/
+.venv/
+__pycache__/
 .mypy_cache/
 .pytest_cache/
+dist/
+build/
+target/
+.gradle/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Compiled files
+*.pyc
+*.class
+*.o
+*.exe
+*.dll
+*.so
+*.a
+*.obj
+*.out
 ```
